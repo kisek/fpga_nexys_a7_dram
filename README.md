@@ -1,6 +1,6 @@
 # fpga_nexys_a7_dram
 
-This is a DDR2 SDRAM (**MT47H64M16HR-25E**) sample project for Nexys A7 FPGA board.
+This is a DDR2 SDRAM (**MT47H64M16HR-25E, 128MB**) sample project for Nexys A7 FPGA board.
 Please use **Vivado 2024.1**. 
 When creating a Vivado project, please select **xc7a100tcsg324-1** as an FPGA. 
 
