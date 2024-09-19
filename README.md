@@ -4,6 +4,10 @@ This is a DDR2 SDRAM (**MT47H64M16HR-25E, 128MB**) sample project for Nexys A7 F
 Please use **Vivado 2024.1**. 
 When creating a Vivado project, please select **xc7a100tcsg324-1** as an FPGA. 
 
+**main.c** will explain what this Verilog code tries to do.
+First, write 1 to all 32-bit words in the DRAM, then read all the words and display the sum of them in VIO.
+The final sum will be **16,777,216**.
+
 ## Clocking Wizard
 
 - Clocking Options, Input Clock Information : **100.000** MHz Input Frequency
